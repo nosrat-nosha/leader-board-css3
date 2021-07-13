@@ -5,6 +5,52 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+.container-nav{
+
+    width: 870px;
+
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.nav{
+    display: flex;
+    background-color: #562EFF;
+    justify-content: space-around;
+    width: 1440px;
+    height: 94px;
+    border-radius: 5px;
+    margin-bottom: -20px;
+}
+.nav-logo{
+    display: flex;
+    width: 40.42px;
+    height: 51px;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 30px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    margin-top: 42px;
+    margin-left: 16px;
+    margin-right: 51px;
+}
+.nav-bar img{
+    width: 51px;
+    height: 51px;
+    margin-top: 23px;
+    margin-left: -17px;
+}
+.nav-logo img{
+    width: 40.42px;
+}
 main{
     display: flex;
     align-items: center;
